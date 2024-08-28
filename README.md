@@ -15,4 +15,12 @@ This project is a real-time chat application built using Angular for the fronten
 - **Backend**: .NET Core with SignalR
 - **Real-Time Communication**: SignalR
 
-This project serves as a practical example of integrating Angular with .NET SignalR to create robust real-time applications. It is ideal for developers looking to explore real-time communication solutions using modern web technologies.
+### Architecture
+```mermaid
+graph LR
+    A[User Input] --> B[Angular Frontend]
+    B --> C[SignalR Real-time Messaging]
+    C --> D[.NET Core Backend]
+    D --> C
+    C --> B
+    B --> A
