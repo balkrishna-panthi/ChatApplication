@@ -13,6 +13,7 @@ import { ChatComponent } from './chat/chat.component';
 import { ChatInputComponent } from './chat-input/chat-input.component';
 import { MessagesComponent } from './messages/messages.component';
 import { PrivateChatComponent } from './private-chat/private-chat.component';
+import { GoogleSignupComponent } from './google-signup/google-signup.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PrivateChatComponent } from './private-chat/private-chat.component';
     ChatComponent,
     ChatInputComponent,
     MessagesComponent,
-    PrivateChatComponent
+    PrivateChatComponent,
+    GoogleSignupComponent
   ],
   imports: [
     BrowserModule,

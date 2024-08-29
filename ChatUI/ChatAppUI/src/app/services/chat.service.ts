@@ -18,7 +18,9 @@ export class ChatService {
   privateMessageInitiated = false;
 
 
-  constructor(private httpClient: HttpClient, private modalService: NgbModal) { }
+  constructor(private httpClient: HttpClient, private modalService: NgbModal) { 
+    console.log('ChatService initialized');
+  }
 
   registerUser(user: User) {
     return this.httpClient.post('http://localhost:5167/' + 'api/chat/register-user', user, { responseType: 'text' })

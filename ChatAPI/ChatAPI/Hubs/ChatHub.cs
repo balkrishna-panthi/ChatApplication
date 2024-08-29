@@ -43,10 +43,10 @@ namespace ChatAPI.Hubs
         {
             string privateGroupName = GetPrivateGroupName(message.From , message.To);
             await Groups.AddToGroupAsync(Context.ConnectionId , privateGroupName);
-            var toConenctionId = chatService.GetConnectionIdByUser(message.To);
+            var toConnectionId = chatService.GetConnectionIdByUser(message.To);
 
-            await Groups.AddToGroupAsync(toConenctionId, privateGroupName);
-            await Clients.Client(toConenctionId).SendAsync("OpenPrivateChat", message);
+            await Groups.AddToGroupAsync(toConnectionId, privateGroupName);
+            await Clients.Client(toConnectionId).SendAsync("OpenPrivateChat", message);
         }
 
         public async Task ReceivePrivateMessage(Messages message)
