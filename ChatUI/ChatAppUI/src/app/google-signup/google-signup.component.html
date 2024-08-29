@@ -1,0 +1,16 @@
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<div id="g_id_onload"
+     data-client_id="865577055178-srep1ea8n9j9udmemhqtkktk6mrnvrvu.apps.googleusercontent.com"
+    
+     data-callback="handleCredentialResponse",
+     data-skip_prompt_cookie="SID"
+     >
+</div>
+<script>
+  function handleCredentialResponse(response) {
+    console.log(response)
+    document.cookie = `"cooki" = "mycook";`
+  }
+</script>
+
+

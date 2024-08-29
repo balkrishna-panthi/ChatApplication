@@ -11,10 +11,12 @@
 /ChatAPI/ChatAPI/obj/Debug/net7.0/ChatAPI.AssemblyInfo.cs
 /ChatAPI/ChatAPI/obj/Debug/net7.0/ChatAPI.AssemblyInfoInputs.cache
 /ChatAPI/ChatAPI/obj/Debug/net7.0
-/ChatUI/ChatAppUI
 /ChatAPI/.vs/ProjectEvaluation
 /ChatAPI/ChatAPI/obj/Debug/net7.0/ChatAPI.assets.cache
 /ChatAPI/ChatAPI/obj/ChatAPI.csproj.nuget.dgspec.json
 /ChatAPI/ChatAPI/obj/ChatAPI.csproj.nuget.g.props
 /ChatAPI/ChatAPI/obj/project.assets.json
 /ChatAPI/ChatAPI/obj/project.nuget.cache
+/ChatUI/ChatAppUI/.angular/cache/16.2.2
+/ChatUI/ChatAppUI/node_modules
+/ChatUI/ChatAppUI/src/.vs
